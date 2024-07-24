@@ -1,0 +1,83 @@
+
+
+.card{
+    background-image: linear-gradient(to bottom right,rgb(66, 220, 66),rgb(170, 170, 228),rgb(232, 232, 72));
+}
+/* .form-control{
+    width: 380px !important;
+} */
+#search-button:hover
+{
+    background-color: rgb(62, 62, 237) !important;
+
+}
+#search-button
+{
+    width: 100px;
+}
+.card-header{
+    padding: 10px !important;
+    background-color: rgba(93, 96, 98, 0.815) !important;
+    /* background-image: linear-gradient(to top left,orange,green,blue); */
+}
+
+
+
+
+/* background image */
+/* body {
+    background-image: url(weather12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  .content {
+    position:fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+  }
+
+
+
+  /* validaation */
+  .red-border {
+    border: 3px solid red !important;
+
+  }
+  .green-border
+  {
+    border:3px solid rgb(26, 240, 26) !important;
+  }
+
+  /* card display */
+  .card-data
+  {
+    display: none;
+  }
+#card-data{
+    margin-top: 30px !important;
+}
+#navbar
+{
+    top:0 !important;
+
+}
+
+/* place holder color change */
+.red-placeholder::placeholder {
+  color: red !important;
+}
